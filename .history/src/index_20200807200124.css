@@ -432,19 +432,15 @@ section.work .wrapper .portfolio .tabs ul {
 
 section.work .wrapper .portfolio .tabs ul li button {
   color: var(--fade);
-  background: transparent;
-  /* border-bottom: 1px solid transparent; */
+  border-bottom: 1px solid transparent;
   padding: 10px 15px;
   font-size: 14px;
-  border: none;
   letter-spacing: 2px;
-  outline: none;
 }
 
 section.work .wrapper .portfolio .tabs ul li button.active {
-  /* border-color: var(--info); */
+  border-color: var(--info);
   color: var(--info);
-  background: transparent;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;

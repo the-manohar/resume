@@ -11,14 +11,14 @@ class Form extends Component {
               <input type="text" required={true} name="name" />
             </div>
             <div>
-              <label htmlFor="">Email</label>
+              <label for="">Email</label>
               <input type="email" required={true} name="email" />
             </div>
           </div>
 
           <div className="form__group textarea__wrapper">
             <div>
-              <label htmlFor="">Message</label>
+              <label for="">Message</label>
               <textarea
                 name="message"
                 id=""

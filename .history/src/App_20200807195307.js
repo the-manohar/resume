@@ -193,8 +193,8 @@ function App() {
                 <div className="skill-box">
                   <h4>PHOTOSHOP & XD</h4>
                   <div className="progress__wrap">
-                    <span data-percent="75" className="progress__bar">
-                      <span className="tooltip">75%</span>
+                    <span data-percent="65" className="progress__bar">
+                      <span className="tooltip">78%</span>
                     </span>
                   </div>
                 </div>
@@ -311,18 +311,18 @@ function App() {
               <div className="tabs">
                 <ul>
                   <li>
-                    <button className="active" data-filter="*">
+                    <a className="active" data-filter="*">
                       All
-                    </button>
+                    </a>
                   </li>
                   <li>
-                    <button data-filter=".design">UI/UX Design</button>
+                    <a data-filter=".design">UI/UX Design</a>
                   </li>
                   <li>
-                    <button data-filter=".frontend">Frontend</button>
+                    <a data-filter=".frontend">Frontend</a>
                   </li>
                   <li>
-                    <button data-filter=".backend">Backend</button>
+                    <a data-filter=".backend">Backend</a>
                   </li>
                 </ul>
               </div>
@@ -448,7 +448,7 @@ function App() {
         <img
           src="https://hitwebcounter.com/counter/counter.php?page=7555304&style=0007&nbdigits=4&type=ip&initCount=150"
           title="Web Counter"
-          alt="cc"
+          Alt="counter free"
           className="cc"
           border="0"
         />
@@ -457,7 +457,7 @@ function App() {
         <img
           src="https://hitwebcounter.com/counter/counter.php?page=7555303&style=0007&nbdigits=4&type=page&initCount=150"
           title="Web Counter"
-          alt="cc-1"
+          Alt="counter free"
           className="cc-1"
           border="0"
         />

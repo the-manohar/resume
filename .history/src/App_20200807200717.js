@@ -194,7 +194,7 @@ function App() {
                   <h4>PHOTOSHOP & XD</h4>
                   <div className="progress__wrap">
                     <span data-percent="75" className="progress__bar">
-                      <span className="tooltip">75%</span>
+                      <span className="tooltip">78%</span>
                     </span>
                   </div>
                 </div>
